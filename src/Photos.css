@@ -1,4 +1,16 @@
-.Photos img {
-  border-radius: 4px;
-  margin-bottom: 20px;
+.Photo img {
+  margin-bottom: 10px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.Photo section {
+  padding: 15px !important;
+}
+
+.Photo img:hover {
+  max-width: 110%;
+  transition: 200ms all ease-in-out;
+  background: #f2d4d8;
+  border-radius: 5%;
 }
