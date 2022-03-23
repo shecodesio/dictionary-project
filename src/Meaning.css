@@ -1,11 +1,19 @@
-.Meaning h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-weight: bold;
+.Meaning .partOfSpeech {
+  font-weight: 800;
+  margin-bottom: 10px;
 }
 
-.Meaning .example {
-  color: #70757a;
-  font-style: italic;
-  margin-top: 10px;
+.Meaning .definition ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding-left: 0 !important;
+}
+
+.Meaning .definition small {
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.Meaning .definition li .example {
+  margin: 0 0 0 27px;
 }
